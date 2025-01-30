@@ -5,6 +5,6 @@ def timer(func):
         start = time.time()
         retVal = func(*args, **kwargs)
         end = time.time()
-        print(f"Function took {end-start} seconds.")
+        print(f"Function {func.__name__} took {end-start} seconds.")
         return retVal
     return wrapper
