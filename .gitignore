@@ -1,2 +1,4 @@
 /parsing/apache_logs_updated.txt
 /parsing/logs.txt
+
+*/__pycache__
